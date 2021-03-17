@@ -1,7 +1,7 @@
 
 node {
     stage('approve') {
-        //def reportContents = readFile("${WORKSPACE}/build.xml")
+        checkout scm
         def reportContents = '''
                                 <testsuites>
                                         <testsuite>
