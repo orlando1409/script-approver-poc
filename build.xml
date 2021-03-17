@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites version-api="2.0">
+        <testsuite>
+            <testcase available="20" name="1">
+           </testcase>
+            <testcase available="14" name="2">
+                <failure text="some failure" id="1">
+                    <subtest/>
+                </failure>
+                <failure>
+                    <subtest/>
+                </failure>                
+                <case/>
+                <junit/>
+            </testcase>
+            <testcase available="13" name="3">
+            </testcase>
+            <testcase available="5" name="4">
+            </testcase>
+        </testsuite>
+        <testsuite>
+            <testcase available="20" name="5">
+           </testcase>
+            <testcase available="14" name="6">
+                <failure>
+                    <subtest/>
+                </failure>
+                <failure>
+                    <subtest/>
+                </failure>
+                <failure>
+                    <subtest/>
+                </failure>                                
+                <case/>
+                <junit/>
+            </testcase>
+            <testcase available="13" name="7">
+            </testcase>
+        </testsuite>        
+</testsuites>
